@@ -19,6 +19,8 @@ while True:
             cv2.rectangle(video, (x, y), (x + w, y + h), (255, 0, 255), 5)
         if cv2.waitKey(1) == 27:
             break
+        elif cv2.waitKey(1) == ord("q"):
+            break
 
 
         cv2.imshow("output",video)
