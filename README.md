@@ -1,8 +1,7 @@
 # facedetect_video
 
-The code reads the video and detects Human Faces present in the video. Run the code to see face being detected in the video. To exit either press "ESC" or"q".
-
-## **Few Screenshots**
+This is code for detecting human faces present within a video using computer vision. It uses data for detecting frontal human face. After running the code press "ESC" or "q" to exit.
+## **Screenshots**
 ![start](https://github.com/gautamgupta1811/facedetect_video/blob/master/start.png)
 
 
