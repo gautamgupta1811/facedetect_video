@@ -1,6 +1,6 @@
 import cv2
 
-#entering the location of video
+# entering the location of video
 path = "WhatsApp Video 2019-09-08 at 20.25.50.mp4"
 vid = cv2.VideoCapture(path)
 
@@ -17,9 +17,9 @@ while True:
         # x, y, w, h are x co-ordiante y co-ordiante width and height of detected object
         for x, y, w, h in faces:
             cv2.rectangle(video, (x, y), (x + w, y + h), (255, 0, 255), 5)
-        if cv2.waitKey(1) == 27:
+        if cv2.waitKey(2) == 27:
             break
-        elif cv2.waitKey(1) == ord("q"):
+        elif cv2.waitKey(2) == ord("q"):
             break
 
 
